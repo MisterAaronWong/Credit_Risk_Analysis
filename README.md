@@ -5,10 +5,22 @@ The purpose of this analysis was to employ different techniques to train and eva
 
 ## Results
 ### Naive Random Oversampling
-![82](Resources/82.png)
+![naive](Resources/naive.png)
 
-### Naive Random Oversampling
-![nonvine5percent](Resources/nonvine5percent.png)
+### SMOTE Oversampling
+![smote](Resources/smote.png)
+
+### Undersampling
+![undersampling](Resources/undersampling.png)
+
+### Combination (Over and Under) Sampling
+![combination](Resources/combination.png)
+
+### Balanced Random Forest Classifier
+![balanced](Resources/balanced.png)
+
+### Easy Ensemble AdaBoost Classifier
+![easy](Resources/easy.png)
 
 ## Summary
 In regards to balanced accuracy, this metric is measured between 0 and 1. The model with the an accuracy score closest to 1 would be considered the best machine learning model for this metric. In this case, the Easy Ensemble AdaBoost Classifier held the highest balanced accuracy score at nearly 0.93. No other models came close to this accuracy score.
