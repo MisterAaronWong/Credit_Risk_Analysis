@@ -5,6 +5,9 @@ The purpose of this analysis was to employ different techniques to train and eva
 
 ## Results
 ### Naive Random Oversampling
+- Balanced Accuracy score: 
+-
+-
 ![naive](Resources/naive.png)
 
 ### SMOTE Oversampling
